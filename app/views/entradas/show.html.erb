@@ -1,0 +1,50 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Autor:</b>
+  <%= @entrada.autor %>
+</p>
+
+<p>
+  <b>Titulo:</b>
+  <%= @entrada.titulo %>
+</p>
+
+<p>
+  <b>Editorial:</b>
+  <%= @entrada.editorial %>
+</p>
+
+<p>
+  <b>Lugar:</b>
+  <%= @entrada.lugar %>
+</p>
+
+<p>
+  <b>Vaciado:</b>
+  <%= @entrada.vaciado %>
+</p>
+
+<p>
+  <b>Fecha:</b>
+  <%= @entrada.fecha %>
+</p>
+
+<p>
+  <b>Issn:</b>
+  <%= @entrada.issn %>
+</p>
+
+<p>
+  <b>Resumen:</b>
+  <%= @entrada.resumen %>
+</p>
+
+<p>
+  <b>Descriptores:</b>
+  <%= @entrada.descriptores %>
+</p>
+
+
+<%= link_to 'Edit', edit_entrada_path(@entrada) %> |
+<%= link_to 'Back', entradas_path %>

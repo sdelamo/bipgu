@@ -1,0 +1,23 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  autor: MyString
+  titulo: MyString
+  editorial: MyString
+  lugar: MyString
+  vaciado: MyString
+  fecha: MyString
+  issn: MyString
+  resumen: MyString
+  descriptores: MyString
+
+two:
+  autor: MyString
+  titulo: MyString
+  editorial: MyString
+  lugar: MyString
+  vaciado: MyString
+  fecha: MyString
+  issn: MyString
+  resumen: MyString
+  descriptores: MyString
